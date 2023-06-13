@@ -1,0 +1,80 @@
+body {
+    font-family: 'Geologica', sans-serif;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 24px;
+ }
+
+ .avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px;
+    border-radius: 50%; /* Make your profile picture to circle shape */
+    box-shadow: 14px 8px 0px 0px black;
+    /* object-fit: cover; << This property will help you adjust photo size fit to your container */
+ }
+
+.button {
+    padding: 12px 24px;
+    background-color: black; 
+    color: white;
+    text-decoration: none; /* Remvoe under line */
+    
+}
+
+.contact {
+    margin-bottom: 48px;
+}
+
+.contact-item {
+    margin-bottom: 4px;
+}
+
+.container {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.7)), url(https://images.unsplash.com/photo-1629752187687-3d3c7ea3a21b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    /* background-repeat: no-repeat; /* << it will help your image don't repeat on background when your image have small width  */
+    /* background-size: cover; << It will make your image expand until cover background */
+    /* background-position: bottom right; << It will change your background position of image to the bottom right of image */
+    min-height: 100vh; /* min-height this mean the height will expand according content size */
+    padding: 128px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 48px;
+    }
+} /* This command will apply these CSS rule when screen size minimum 768px */
+    
+
+
+.content {
+    max-width: 500px;
+}
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+}
+
+.job {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+ }
+
+ .name {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+ }
+
+@media screen and (max-width: 768px){
+    .name{
+        font-size: 36px;
+    }
+
+ 
